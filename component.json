@@ -1,0 +1,10 @@
+{
+  "name": "ViewportZoom",
+  "version": "0.0.0",
+  "main": "ViewportZoom.js",
+  "ignore": [
+    "components"
+  ],
+  "dependencies": {
+  }
+}
