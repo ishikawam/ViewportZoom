@@ -71,5 +71,8 @@ var ViewportZoom = ViewportZoom || {};
 
         return(device_width / viewport_width);
     }
-    module.exports = ViewportZoom;
+
+    if (typeof(module) !== 'undefined') {
+        module.exports = ViewportZoom;
+    }
 })(ViewportZoom);

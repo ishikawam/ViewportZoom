@@ -1,10 +1,13 @@
 {
   "name": "ViewportZoom",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "ViewportZoom.js",
   "ignore": [
-    "components"
+    "components",
+    "node_modules"
   ],
   "dependencies": {
+  },
+  "devDependencies": {
   }
 }
