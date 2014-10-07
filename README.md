@@ -6,34 +6,36 @@ calculate rate of magnification by `<meta name="viewport">` for a device.
 
 Viewport.get(device_width, meta_viewport, default_scale, min_width, max_width)
 
-### device_width
+#### device_width
 
 iPhone = 320
 
 iPad = 768
 
-### meta_viewport
+#### meta_viewport
 
 meta viewport's content text.
 
-> <meta name="viewport" content="...text...">
+```html
+<meta name="viewport" content="...text...">
+```
 
-### default_scale
+#### default_scale
 
 iPhone, iPad = 980px
 
-### min_width
+#### min_width
 
 iPhone, iPad = 64px
 
-### max_width
+#### max_width
 
 iPhone, iPad = 1280px
 
 
 ## Usage Examples
 
-```
+```javascript
 var ViewportZoom = require('lib/ViewportZoom/ViewportZoom.js');
 
 var zoom = ViewportZoom.get(320);
