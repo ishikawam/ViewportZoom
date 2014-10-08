@@ -1,6 +1,6 @@
 {
   "name": "ViewportZoom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "calculate rate of magnification by `<meta name=\"viewport\">` for a device.",
   "main": "ViewportZoom.js",
   "ignore": [
