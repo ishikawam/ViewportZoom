@@ -8,7 +8,7 @@ calculate rate of magnification by `<meta name="viewport">` for a device.
 ## How to use
 
 ```js
-Viewport.get(device_width, meta_viewport, default_scale, min_width, max_width)
+ViewportZoom.get(device_width, meta_viewport, default_scale, min_width, max_width);
 ```
 
 #### device_width
