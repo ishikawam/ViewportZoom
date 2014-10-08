@@ -12,12 +12,13 @@ ViewportZoom.get(device_width, meta_viewport, default_scale, min_width, max_widt
 ```
 
 #### device_width
+Type: `Number`
 
-iPhone = 320
-
-iPad = 768
+> iPhone = 320
+> iPad = 768
 
 #### meta_viewport
+Type: `String` Default: ''
 
 meta viewport's content text.
 
@@ -25,15 +26,21 @@ meta viewport's content text.
 <meta name="viewport" content="...text...">
 ```
 
-#### default_scale
+viewport content options, `width`, `width=device-width`, `initial-scale`, `minimum-scale` and `minimum-scale`.
+no meaning `user-scalable`.
 
-iPhone, iPad = 980px
+#### default_scale
+Type: `Number` Default: '980'
+
+> iPhone, iPad = 980px
 
 #### min_width
+Type: `Number` Default: '64'
 
-iPhone, iPad = 64px
+> iPhone, iPad = 64px
 
 #### max_width
+Type: `Number` Default: '1280'
 
 iPhone, iPad = 1280px
 
@@ -49,6 +56,8 @@ var zoom = ViewportZoom.get(320);
 var zoom = ViewportZoom.get(320, 'width=device-width, initial-scale=1');
 > 1
 ```
+
+and more samples on https://github.com/ishikawam/ViewportZoom/blob/master/test/test.js
 
 ## Author
 

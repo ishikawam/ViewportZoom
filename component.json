@@ -1,6 +1,7 @@
 {
   "name": "ViewportZoom",
   "version": "0.0.1",
+  "description": "calculate rate of magnification by `<meta name=\"viewport\">` for a device.",
   "main": "ViewportZoom.js",
   "ignore": [
     "components",
@@ -9,5 +10,6 @@
   "dependencies": {
   },
   "devDependencies": {
-  }
+  },
+  "license": "MIT"
 }
